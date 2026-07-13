@@ -63,6 +63,8 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 
 자격·마감·필수 첨부·공식 판본이 충돌하면 `P0 / COMPLIANCE_RISK`로 먼저 보고하라.
 
+최신 공식 연장·정정 공지를 확인한 뒤 마감일·시각·시간대를 현재 날짜와 비교하라. 마감이 확정적으로 지났으면 다른 평가보다 먼저 `제출 불가`로 판정하라.
+
 ### 3. 제안 핵심 잠그기
 
 다음 열 요소를 원문과 자료에서 채워라.
