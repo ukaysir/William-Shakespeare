@@ -1,15 +1,32 @@
 ---
 name: write-competition-proposals
-description: Draft, structure, diagnose, rewrite, and final-audit Korean written competition proposals by extracting official eligibility, submission rules, evaluation criteria, and weights; building problem-target-intervention-mechanism-outcome logic; mapping evidence to reviewer questions; preserving facts; and flagging content, evidence, consistency, and compliance gaps. Use when Codex needs to analyze a contest brief, rubric, or application form; turn an idea into an outline or draft; review or revise a policy, public-service, social-impact, product, service, or business idea submission; improve proposal clarity, persuasion, judgeability, and Korean writing; or perform pre-submission checks. Do not use for literary contests, slide visual design, or unsupported win and score predictions.
+description: Draft, structure, diagnose, rewrite, and final-audit persuasive Korean written competition proposals by extracting official eligibility, submission rules, evaluation criteria, and weights; building problem-target-intervention-mechanism-outcome logic; mapping evidence to reviewer questions; making the strongest clear claim the evidence supports; preserving facts; and separating internal risk checks from submission prose. Use when Codex needs to analyze a contest brief, rubric, or application form; turn an idea into an outline or draft; review or revise a policy, public-service, social-impact, product, service, or business idea submission; strengthen persuasive clarity and judgeability; or perform pre-submission checks. Do not use for literary contests, slide visual design, or unsupported win and score predictions.
 ---
 
 # Write Competition Proposals
 
 ## 목적
 
-심사자가 제목과 첫 문단에서 문제–대상–제안–효과를 파악하고, 공식 평가항목별 채점 근거를 빠르게 찾을 수 있는 한국어 서면형 공모전 기획서를 설계·작성·진단·재작성하라.
+심사자가 제목과 첫 문단에서 문제–대상–제안–효과를 파악하고, 제안의 필요성과 우수성을 납득하며, 공식 평가항목별 채점 근거를 빠르게 찾을 수 있는 설득력 있는 한국어 서면형 공모전 기획서를 설계·작성·진단·재작성하라.
 
-문장 미화보다 제출 적합성, 평가 대응, 논리, 근거 무결성, 심사 편의성을 우선하라. 수상이나 점수를 보장하지 마라.
+제출 적합성과 사실 무결성을 지키면서도 근거가 허용하는 가장 선명하고 강한 주장을 사용하라. 사실성 보호를 이유로 확인된 사실, 제안자가 결정한 설계, 실행할 계획까지 가능성이나 검토 수준으로 약화하지 마라. 수상이나 점수를 보장하지 마라.
+
+## 최우선 설득 원칙
+
+제출용 원고의 기본값은 방어가 아니라 설득이다. 각 문단은 심사자가 받아들여야 할 결론을 먼저 직접 제시하고, 근거·작동원리·효과·실행으로 그 결론을 강화하라.
+
+- 근거 범위 안에서 가능한 가장 강하고 구체적인 주장을 선택하라. 약한 표현이 더 안전하다는 이유만으로 자동 완곡화하지 마라.
+- `확인된 사실`, `제안자가 확정한 설계`, `실행 의지와 계획`은 단정형으로 써라. 불확실성 표시는 실제 성과·수치·인과처럼 검증이 필요한 부분에만 적용하라.
+- 기능과 작동 방식은 `제공한다`, `연결한다`, `전환한다`, `운영한다`처럼 직접 쓰고, 검증 전 성과만 `목표로 한다`, `검증한다`로 구분하라.
+- 한계·미확정·추가 확인은 내부 감사 정보가 기본이다. 제출 원고에 자동으로 포함하지 마라.
+- 한계 언급이 심사자의 핵심 판단을 바꾸지 않으면 생략하라. 성실함을 보이기 위한 유보 문장을 만들지 마라.
+- 사실 오해나 실격을 막기 위해 반드시 필요한 예외만 해당 주장 가까이에 최소한으로 표시하라.
+
+제출 원고 전체에 다음 `설득 사슬`을 세워라.
+
+`선택해야 할 결론 → 문제의 중요성과 시급성 → 기존 방식의 결정적 공백 → 제안의 핵심 작동원리 → 이 방식이 더 적합한 이유 → 실행 신뢰성 → 측정 가능한 변화`
+
+각 공식 평가항목의 답은 정보 나열이 아니라 `결론 → 이유 → 근거 → 심사 판단`으로 완결하라. 예상 반론은 실제 채택 결정을 막는 것만 골라 제안의 설계·근거·실행계획으로 해소하고, 자기반박이나 일반적인 한계 고백으로 처리하지 마라.
 
 ## 입력 우선순위
 
@@ -32,7 +49,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 | 모드 | 사용 조건 | 핵심 결과 |
 | --- | --- | --- |
 | 설계 | 아이디어를 구조화하거나 목차를 만들 때 | 제안 핵심, 평가 지도, 목차, 정보 공백 |
-| 초안 | 제공 자료로 새 원고를 쓸 때 | 양식에 맞춘 초안과 확인 필요 항목 |
+| 초안 | 제공 자료로 새 원고를 쓸 때 | 양식에 맞춘 설득 원고와 필요시 차단 공백 메모 |
 | 진단 | 문제점·평가만 요청할 때 | 원문 보존 진단, 근거, 우선순위, 조치 |
 | 재작성 | 문장·문단·전체 개선을 요청할 때 | 사실 보존 수정본과 핵심 변경 |
 | 최종 검수 | 제출 직전 확인할 때 | 제출 위험, 평가 대응, 근거·일관성 감사 |
@@ -44,7 +61,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 작업에 필요한 파일을 직접 읽고 적용하라.
 
 - 모든 설계·작성·진단 작업: [references/proposal-workflow.md](references/proposal-workflow.md)
-- 14개 기준 진단 또는 표현 품질 검수: [references/writing-rubric.md](references/writing-rubric.md)
+- 15개 기준 진단 또는 표현 품질 검수: [references/writing-rubric.md](references/writing-rubric.md)
 - 통계·출처·목표·인과·수치·용어 검사: [references/evidence-integrity.md](references/evidence-integrity.md)
 - 한국어 문장 또는 문단 재작성: [references/korean-rewriting-patterns.md](references/korean-rewriting-patterns.md)
 - 결과 형식과 깊이 선택: [references/output-contracts.md](references/output-contracts.md)
@@ -71,7 +88,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 
 `대상 → 상황 → 문제 → 원인 → 개입 → 작동원리 → 결과 → 측정 → 실행 → 차별성`
 
-정보가 없으면 추측하지 말고 구체적인 확인 표식을 남겨라. 이 요소로 한 문장 제안을 만들고 제목과 첫 문단만으로 문제·대상·제안·효과를 재구성할 수 있는지 검사하라.
+정보가 없으면 추측하지 말고 내부 작업표에 구체적인 확인 표식을 남겨라. 제출용 원고에는 필수 내용이 비어 문장이 성립하지 않는 경우에만 자리표시자를 노출하라. 이 요소로 한 문장 제안을 만들고 제목과 첫 문단만으로 문제·대상·제안·효과를 재구성할 수 있는지 검사하라.
 
 ### 4. 평가항목을 역설계하기
 
@@ -106,21 +123,21 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 
 각 문단을 `독자 질문 → 첫 문장의 답 → 근거 → 의미 → 다음 질문`으로 설계하라. 문단 첫 문장에 결론을 두고, 행위자–행동–조건–결과를 드러내라.
 
-#### 주장과 한계 분리하기
+#### 설득 원고와 내부 감사 분리하기
 
-내부 검수에서 확인한 모든 한계를 제출 원고의 각 주장 뒤에 복사하지 마라. 본문은 `주장 → 근거 → 의미 → 설계·측정`을 전진시키고, 사실 상태는 문장 자체의 범위와 동사로 조정하라. 검증 전 효과는 `해결한다. 다만 검증되지 않았다`가 아니라 `감소 가능성을 검증한다`처럼 써라.
+내부 검수에서 확인한 한계·전제·미확정·추가 확인을 제출 원고에 자동으로 옮기지 마라. 본문은 `주장 → 근거 → 의미 → 설계·효과`를 전진시키고, 근거가 허용하는 가장 강한 결론으로 문단을 완성하라. 제안자가 채택한 기능과 절차는 직접 단정하고, 검증 전 성과·수치·인과만 상태에 맞춰 범위를 조정하라.
 
-한계·전제·미확정·추가 확인은 원칙적으로 원고 밖의 확인 목록이나 자유 형식 원고 말미의 `검증 범위와 남은 확인`에 한 번 모아라. 공식 양식에 위험·한계 필드가 있으면 그 필드를 따르라. 다음 정보만 해당 주장 가까이에 표시하라.
+한계는 내부 확인 목록에 보관하되, 사용자가 요청했거나 공식 양식에 위험·한계 필드가 있을 때만 별도로 출력하라. 다음 정보처럼 누락 시 문장이 거짓이 되거나 제출 판단이 달라지는 경우에만 해당 주장 가까이에 짧게 표시하라.
 
 - 분리하면 통계의 대상·시점·분모·범위 또는 인과 상태를 오해하게 되는 정보
 - 법률·안전·개인정보·권리·제출조건 위험
 - 예외가 작동 방식, 대상 또는 실행 가능성을 실질적으로 바꾸는 정보
 
-주장 문단을 관성적인 `다만`, `아직`, `단정할 수 없다`로 닫지 마라. 문단 마지막은 근거의 의미, 설계 선택, 다음 행동 또는 측정으로 끝내라.
+주장 문단을 `다만`, `아직`, `단정할 수 없다`로 닫지 마라. 한계가 중요하지 않으면 아예 쓰지 말고, 문단 마지막은 제안의 효용, 설계 선택, 실행 의지 또는 측정 가능한 변화로 끝내라.
 
 ### 7. 근거와 주장 강도 감사하기
 
-핵심 문장을 사실, 해석, 추정, 목표, 계획, 가정, 미확정으로 구분하라. 근거보다 강한 동사를 낮추되 별도의 자기반박 문장을 붙이기보다 주장 문장 자체의 범위와 동사를 조정하라.
+핵심 문장을 사실, 해석, 추정, 목표, 계획, 가정, 미확정으로 내부 분류하라. 근거보다 강한 동사는 낮추고 근거보다 약한 동사는 높여, 각 상태가 허용하는 최대 강도로 표현하라. 별도의 자기반박 문장은 붙이지 마라.
 
 통계는 출처·시점·대상·분모·단위를 확인하고 `주장 → 근거 → 해석 → 설계 함의`로 연결하라. 문제의 존재를 보여주는 자료를 특정 해법의 효과 증거로 오용하지 마라.
 
@@ -132,7 +149,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 2. 공식 평가항목별 근거 회수 가능성
 3. 문제–원인–개입–결과–측정의 연결
 4. 제목·첫 문단의 30초 이해
-5. 14개 글쓰기 기준
+5. 15개 글쓰기 기준
 6. 대상·용어·수치·단위·기간·주체 일관성
 
 에이전트의 이해도 검사는 실제 독자 검사의 대리 지표라고 밝혀라. 가능하면 사용자가 실제 독자에게 자기 말로 설명하게 하는 검사를 권하라.
@@ -145,7 +162,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 - 목표를 성과로, 계획을 완료 사실로, 가정을 수요 사실로 바꾸지 마라.
 - 원문의 수치·대상·기간을 조용히 변경하지 마라.
 - 비교 근거 없이 `최초`, `유일`, `완벽`, `획기적`을 쓰지 마라.
-- 근거가 없으면 `[무엇을 확인해야 하는지]`가 드러나는 표식을 사용하라.
+- 근거가 없으면 내부 확인 목록에 `[무엇을 확인해야 하는지]`가 드러나는 표식을 사용하라. 제출 원고에는 필수 공백이 아닌 표식을 남기지 마라.
 - 법률·의료·재무·기술 타당성을 전문가 확인 없이 확정하지 마라.
 
 사용자가 웹 조사를 요청하거나 최신·고위험 사실이 필요하면 검증 가능한 원문을 찾아 출처를 가까이 표시하라. 사용자 초안의 민감정보를 외부 검색어로 사용하지 마라.
@@ -177,7 +194,7 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 - 민감정보, 비공개 자료, 법적 확정 판단이 필요함
 - 사실 추가 없이는 사용자가 요구한 효과·성과를 쓸 수 없음
 
-확인 전에도 수행할 수 있는 공고 정리, 원문 진단, 공백 표시는 계속하라.
+확인 전에도 수행할 수 있는 공고 정리와 원문 진단은 계속하고, 공백 표시는 내부 작업표에만 남겨라.
 
 ## 완료 기준
 
@@ -190,5 +207,6 @@ description: Draft, structure, diagnose, rewrite, and final-audit Korean written
 - 핵심 논리의 빠진 연결이 숨겨지지 않음
 - 새 사실이나 근거를 발명하지 않음
 - 대상·용어·수치·단위·기간·주체의 충돌을 보고함
-- 한계와 미확정 정보가 삭제되지 않으면서 본문 주장 뒤에 반복되지 않음
-- 가장 중요한 다음 행동이 우선순위로 제시됨
+- 각 핵심 주장이 근거 범위에서 가능한 가장 선명하고 강한 표현으로 제시됨
+- 내부 한계와 미확정 정보가 제출 원고에 불필요하게 노출되지 않음
+- 진단·최종 검수 또는 제출 차단 공백이 있을 때만 가장 중요한 다음 행동이 제시됨
