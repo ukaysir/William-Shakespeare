@@ -1,4 +1,4 @@
 interface:
-  display_name: "공모전 기획서 작성"
-  short_description: "근거 범위에서 가장 선명하고 설득력 있는 공모전 기획서를 작성합니다"
-  default_prompt: "$write-competition-proposals를 사용해 공고와 초안을 분석하고, 사실을 보존하면서 근거가 허용하는 가장 강한 주장으로 심사자를 설득하되 불필요한 한계와 자기반박은 제외한 기획서로 개선해 주세요."
+  display_name: "공모전 공격적 논리설득"
+  short_description: "논리사슬과 강한 주장으로 심사자의 선택을 이끄는 공모전 제안서"
+  default_prompt: "$write-competition-proposals를 사용해 공모전의 채택명제와 논리사슬을 먼저 확정하고, 평가항목마다 주장·근거·논거·판정을 닫은 공격적 설득 원고로 작성해 주세요."
