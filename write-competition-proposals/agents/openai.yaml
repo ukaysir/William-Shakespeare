@@ -1,4 +1,4 @@
 interface:
-  display_name: "공모전 공격적 논리설득"
-  short_description: "논리사슬과 강한 주장으로 심사자의 선택을 이끄는 공모전 제안서"
-  default_prompt: "$write-competition-proposals를 사용해 공모전의 채택명제와 논리사슬을 먼저 확정하고, 평가항목마다 주장·근거·논거·판정을 닫은 공격적 설득 원고로 작성해 주세요."
+  display_name: "공모전 논리적 제안서"
+  short_description: "7부 구조와 단일 문단 공식으로 쓰는 공모전 제안서"
+  default_prompt: "$write-competition-proposals를 사용해 제안서를 7부 구조와 주장→설명→근거·사례→소결론 문단 공식으로 작성해 주세요."
